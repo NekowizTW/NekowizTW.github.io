@@ -3,48 +3,144 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>NekowizTW.github.io by NekowizTW</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <title>NekowizTW.github.io by NekowizTW</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css"> 
+    <!--<![endif]-->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/marketing.css">
+    <!--<![endif]-->
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/NekowizTW">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
+  <div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">NekowizTW</a>
 
-    <div class="wrapper">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="http://zh.nekowiz.wikia.com/wiki/%E5%95%8F%E7%AD%94RPG_%E9%AD%94%E6%B3%95%E4%BD%BF%E8%88%87%E9%BB%91%E8%B2%93%E7%B6%AD%E8%8C%B2_%E7%B6%AD%E5%9F%BA" class="pure-menu-link">黑貓wiki</a></li>
+            <li class="pure-menu-item"><a href="https://github.com/NekowizTW" class="pure-menu-link">GITHUB</a></li>
+        </ul>
+    </div>
+</div>
 
-      <section>
-        <div id="title">
-          <h1>NekowizTW.github.io</h1>
-          <p></p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/NekowizTW">NekowizTW</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">NekowizTW</h1>
+        <p class="splash-subhead">
+            從黑貓wiki向外發展的所有服務，都可以稱為NekowizTW
+        </p>
+        <p>
+            <a href="#getStart" class="pure-button pure-button-primary">立即使用</a>
+        </p>
+    </div>
+</div>
+
+<div id="getStart" class="content-wrapper">
+    <div class="content">
+        <h2 class="content-head is-center">目前已經有以下功能</h2>
+
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                <h3 class="content-subhead">
+                    <i class="fa fa-rocket"></i>
+                    黑貓懶人包
+                </h3>
+                <p>
+                    簡易匯整一些黑貓近期的活動，轉蛋機內容物
+                </p>
+                <a class="pure-button pure-button-primar" href="http://goo.gl/CMUcIq">前往懶人包</a>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-calendar"></i>
+                    活動時間軸
+                </h3>
+                <p>
+                    包含當前活動的時間、曜日素材的時間，如果出現免體時段會顯示下一次免體的時間>
+                </p>
+                <a class="pure-button pure-button-primar" href="http://nekowiztw.github.io/eventTimeline/">前往時間軸</a>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-calculator"></i>
+                    AS倍率計算
+                </h3>
+                <p>
+                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                </p>
+                <a class="pure-button pure-button-primar" href="https://nekowiztw.github.io/SkillDamage/">前往計算器</a>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-check-square-o"></i>
+                    規劃中...
+                </h3>
+                <p>
+                    剩下功能仍在做規劃...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/mikotoself.png">
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+            <h2 class="content-head content-head-ribbon">黑貓wiki資料使用規範</h2>
+
+            <p>
+                黑貓wiki目前分成「基本遊戲資料」、「題庫」、「卡片」、「關卡資料」，裏頭的圖片與文字都是遵照官方默許的授權下進行分享。
+                <br>
+                如果取得後擅自改造來進行商業行為則不屬於我們能管轄的範圍內，所以這部分責任請違規當事人自負。
+                <br>
+                如在黑貓wiki或是NekowizTW開頭的服務上轉載或取用任何資料或圖片，必須註明出處與連結為「問答RPG 魔法使與黑貓維茲 繁中維基」。
+            </p>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 class="content-head is-center">其他相關資訊</h2>
+
+        <div class="pure-g">
+            <div class="l-box-lrg is-center pure-u-1 pure-u-md-2-5">
+                <img class="pure-img-responsive" alt="File Icons" width="300" height="418" src="img/ankaandyachiyo.png">
+            </div>
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4>連絡我們</h4>
+                <p>
+                    你可以透過<a href="http://zh.nekowiz.wikia.com/wiki/%E7%89%B9%E6%AE%8A:Forum">黑貓wiki論壇</a>來發表你的想法。
+                    <br>
+                    Facebook的話請到 《問答RPG 魔法使與黑貓維茲》之交友討論區 填寫表單進入發問，至於專案協力的話請直接點右上角的GITHUB進入想要幫助的專案發出ISSUE即可。
+                </p>
+
+                <h4>更多訊息</h4>
+                <p>
+                    如果想要更了解黑貓這遊戲，可以點選右上角的黑貓wiki來閱讀相關的遊戲資料
+                </p>
+            </div>
         </div>
 
-        <h1>
-<a id="nekowiztwgithubio" class="anchor" href="#nekowiztwgithubio" aria-hidden="true"><span class="octicon octicon-link"></span></a>NekowizTW.github.io</h1>
-
-<p>Under maintenance...</p>
-
-<p>This organization will be the support for the game 魔法使與黑貓維茲 but not the plugin to brake the game rule.</p>
-      </section>
-
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+
+    <div class="footer l-box is-center">
+        View the source of this layout to learn more. Made with love by the YUI Team.
+    </div>
+
+</div>
   </body>
 </html>
