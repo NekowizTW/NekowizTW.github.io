@@ -11,7 +11,7 @@
 body {
     line-height: 1.7em;
     color: #7f8c8d;
-    font-size: 13px;
+    font-size: 1em;
 }
 
 h1,
@@ -156,7 +156,7 @@ a.pure-button-primary {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 20px;
+    font-size: 1.4em;
     font-weight: bold;
     color: white;
     border: 3px solid white;
@@ -241,9 +241,9 @@ a.pure-button-primary {
     .home-menu {
         text-align: left;
     }
-        .home-menu ul {
-            float: right;
-        }
+    .home-menu ul {
+        float: right;
+    }
 
     /* We increase the height of the splash-container */
 /*    .splash-container {

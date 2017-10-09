@@ -4,152 +4,139 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <meta name="description" content="NekowizTW is a third-party team to make player friendly to nekowiz mobile game.">
     <title>NekowizTW.github.io by NekowizTW</title>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css"> 
-    <!--<![endif]-->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="css/layouts/marketing.css">
-    <!--<![endif]-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/marketing.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-  <div class="header">
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">NekowizTW</a>
-
-        <ul class="pure-menu-list">
+    <div class="home-menu pure-g" id="menu">
+      <div class="pure-u-1 pure-u-md-1-2">
+        <div class="pure-menu">
+          <a href="#" class="pure-menu-heading custom-brand">NekowizTW</a>
+          <a href="#" class="custom-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+        </div>
+      </div>
+      <div class="pure-u-1 pure-u-md-1-2">
+        <div class="pure-menu pure-menu-horizontal custom-menu-3 custom-can-transform">
+          <ul class="pure-menu-list">
             <li class="pure-menu-item"><a href="http://zh.nekowiz.wikia.com/wiki/%E5%95%8F%E7%AD%94RPG_%E9%AD%94%E6%B3%95%E4%BD%BF%E8%88%87%E9%BB%91%E8%B2%93%E7%B6%AD%E8%8C%B2_%E7%B6%AD%E5%9F%BA" class="pure-menu-link">黑貓wiki</a></li>
             <li class="pure-menu-item"><a href="https://github.com/NekowizTW" class="pure-menu-link">GITHUB</a></li>
-        </ul>
+          </ul>
+        </div>
+      </div>
     </div>
-</div>
 
-<div class="splash-container">
-    <div class="splash">
+    <div class="splash-container">
+      <div class="splash">
         <h1 class="splash-head">NekowizTW</h1>
         <p class="splash-subhead">
-            從黑貓wiki向外發展的所有服務，都可以稱為NekowizTW
+          從黑貓wiki向外發展的所有服務，都可以稱為NekowizTW
         </p>
         <p>
-            <a href="#getStart" class="pure-button pure-button-primary">立即使用</a>
+          <a href="#getStart" class="pure-button pure-button-primary">立即使用</a>
         </p>
+      </div>
     </div>
-</div>
 
-<div id="getStart" class="content-wrapper">
-    <div class="content">
+    <div id="getStart" class="content-wrapper">
+      <div class="content">
         <h2 class="content-head is-center">目前已經有以下功能</h2>
 
         <div class="pure-g">
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">
-                    <i class="fa fa-calendar"></i>
-                    活動時間軸
-                </h3>
-                <p>
-                    包含當前活動的時間、曜日素材的時間，如果出現免體時段會顯示下一次免體的時間>
-                </p>
-                <a class="pure-button pure-button-primar" href="http://nekowiztw.github.io/eventTimeline/">前往時間軸</a>
-            </div>
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">
-                    <i class="fa fa-calculator"></i>
-                    AS倍率計算
-                </h3>
-                <p>
-                    黑貓早期的技能很多都沒有註明倍率，所以就做出以前算倍率的方法。
-                </p>
-                <a class="pure-button pure-button-primar" href="https://nekowiztw.github.io/SkillDamage/">前往計算器</a>
-            </div>
-			<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">
-                    <i class="fa fa-calculator"></i>
-                    卡片搜尋器
-                </h3>
-                <p>
-                    蒐集黑貓wiki的卡片資料，將卡片資料整理成可以做複合搜索的功能。
-                </p>
-                <a class="pure-button pure-button-primar" href="https://nekowiztw.github.io/cardFinder/">前往搜尋器</a>
-            </div>
-			<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">
-                    <i class="fa fa-calculator"></i>
-                    非人的意志
-                </h3>
-                <p>
-                    小品遊戲，參考遊戲王卡的部分設定，對黑貓的卡片進行模擬抽卡。
-                </p>
-                <a class="pure-button pure-button-primar" href="https://nekowiztw.github.io/customGashapon/">前往模擬器</a>
-            </div>
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">
-                    <i class="fa fa-check-square-o"></i>
-                    規劃中...
-                </h3>
-                <p>
-                    剩下功能仍在做規劃...
-                </p>
-            </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              <i class="fa fa-calendar"></i>
+              活動時間軸
+            </h3>
+            <p>
+              包含當前活動的時間、曜日素材的時間，如果出現免體時段會顯示下一次免體的時間>
+            </p>
+            <a class="pure-button pure-button-primar" href="http://nekowiztw.github.io/eventTimeline/">前往時間軸</a>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              <i class="fa fa-calculator"></i>
+              AS倍率計算
+            </h3>
+            <p>
+              黑貓早期的技能很多都沒有註明倍率，所以就做出以前算倍率的方法。
+            </p>
+            <a class="pure-button pure-button-primar" href="https://nekowiztw.github.io/SkillDamage/">前往計算器</a>
+          </div>
+  		    <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              <i class="fa fa-calculator"></i>
+              卡片搜尋器
+            </h3>
+            <p>
+              蒐集黑貓wiki的卡片資料，將卡片資料整理成可以做複合搜索的功能。
+            </p>
+            <a class="pure-button pure-button-primar" href="https://nekowiztw.github.io/cardFinder/">前往搜尋器</a>
+          </div>
+  		    <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              <i class="fa fa-calculator"></i>
+              非人的意志
+            </h3>
+            <p>
+              小品遊戲，參考遊戲王卡的部分設定，對黑貓的卡片進行模擬抽卡。
+            </p>
+            <a class="pure-button pure-button-primar" href="https://nekowiztw.github.io/customGashapon/">前往模擬器</a>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              <i class="fa fa-check-square-o"></i>
+              規劃中...
+            </h3>
+            <p>
+              剩下功能仍在做規劃...
+            </p>
+          </div>
         </div>
-    </div>
-
-    <div class="ribbon l-box-lrg pure-g">
+      </div>
+      <div class="ribbon l-box-lrg pure-g">
         <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/mikotoself.png">
+          <img class="pure-img-responsive" alt="File Icons" width="300" src="img/mikotoself.png">
         </div>
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
-
-            <h2 class="content-head content-head-ribbon">黑貓wiki資料使用規範</h2>
-
-            <p>
-                黑貓wiki目前分成「基本遊戲資料」、「題庫」、「卡片」、「關卡資料」，裏頭的圖片與文字都是遵照官方默許的授權下進行分享。
-                <br>
-                如果取得後擅自改造來進行商業行為則不屬於我們能管轄的範圍內，所以這部分責任請違規當事人自負。
-                <br>
-                如在黑貓wiki或是NekowizTW開頭的服務上轉載或取用任何資料或圖片，必須註明出處與連結為「問答RPG 魔法使與黑貓維茲 繁中維基」。
-            </p>
+          <h2 class="content-head content-head-ribbon">黑貓wiki資料使用規範</h2>
+          <p>
+            黑貓wiki目前分成「基本遊戲資料」、「題庫」、「卡片」、「關卡資料」，裏頭的圖片與文字都是遵照官方默許的授權下進行分享。
+            <br>
+            如果取得後擅自改造來進行商業行為則不屬於我們能管轄的範圍內，所以這部分責任請違規當事人自負。
+            <br>
+            如在黑貓wiki或是NekowizTW開頭的服務上轉載或取用任何資料或圖片，必須註明出處與連結為「問答RPG 魔法使與黑貓維茲 繁中維基」。
+          </p>
         </div>
-    </div>
-
-    <div class="content">
+      </div>
+      <div class="content">
         <h2 class="content-head is-center">其他相關資訊</h2>
-
         <div class="pure-g">
-            <div class="l-box-lrg is-center pure-u-1 pure-u-md-2-5">
-                <img class="pure-img-responsive" alt="File Icons" width="300" height="418" src="img/ankaandyachiyo.png">
-            </div>
-
-            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                <h4>連絡我們</h4>
-                <p>
-                    你可以透過<a href="http://zh.nekowiz.wikia.com/wiki/%E7%89%B9%E6%AE%8A:Forum">黑貓wiki論壇</a>來發表你的想法。
-                    <br>
-                    Facebook的話請到 《問答RPG 魔法使與黑貓維茲》之交友討論區 填寫表單進入發問，至於專案協力的話請直接點右上角的GITHUB進入想要幫助的專案發出ISSUE即可。
-                </p>
-
-                <h4>更多訊息</h4>
-                <p>
-                    如果想要更了解黑貓這遊戲，可以點選右上角的黑貓wiki來閱讀相關的遊戲資料
-                </p>
-            </div>
+          <div class="l-box-lrg is-center pure-u-1 pure-u-md-2-5">
+            <img class="pure-img-responsive" alt="File Icons" width="300" height="418" src="img/ankaandyachiyo.png">
+          </div>
+          <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+            <h4>連絡我們</h4>
+            <p>
+              你可以透過<a href="http://zh.nekowiz.wikia.com/wiki/%E7%89%B9%E6%AE%8A:Forum">黑貓wiki論壇</a>來發表你的想法。
+              <br>
+              Facebook的話請到 《問答RPG 魔法使與黑貓維茲》之交友討論區 填寫表單進入發問，至於專案協力的話請直接點右上角的GITHUB進入想要幫助的專案發出ISSUE即可。
+            </p>
+            <h4>更多訊息</h4>
+            <p>
+              如果想要更了解黑貓這遊戲，可以點選右上角的黑貓wiki來閱讀相關的遊戲資料
+            </p>
+          </div>
         </div>
-
+      </div>
+      <div class="footer l-box is-center">
+          本頁面建設全部參照purecss範例製作，授權部份使用CC0，函式庫遵造原來授權方式。
+      </div>
     </div>
-
-    <div class="footer l-box is-center">
-        View the source of this layout to learn more. Made with love by the YUI Team.
-    </div>
-
-</div>
+    <script src="js/main.js" type="text/javascript"></script>
   </body>
 </html>
